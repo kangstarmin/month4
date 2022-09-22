@@ -1,0 +1,15 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+.one{
+  @include circle;
+  background-color: $first-color;
+}
+.two{
+  @include circle;
+  background-color: $second-color;
+}
+.three{
+  @include circle;
+  background-color: $third-color;
+}

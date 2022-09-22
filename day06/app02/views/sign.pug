@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title 프로필 이름 작성
+    link(rel="stylesheet", href="/static/sign_style.css")
+  body 
+    div(id="container")
+      h1 자신의 이름 또는 닉네임을 적어주세요.
+      form(action="http://localhost:3001" method="post") 
+        input(type="text" placeholder="이름 또는 별명", name="userID")
+        button(type="submit" value="로그인", href="http://localhost:3001") 입장하기
+    script(src="/static/sign_script.js")

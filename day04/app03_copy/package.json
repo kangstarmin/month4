@@ -1,0 +1,19 @@
+{
+  "name": "app03_copy",
+  "version": "1.0.0",
+  "description": "My First NPM Project",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "text"
+  ],
+  "author": "seongmin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

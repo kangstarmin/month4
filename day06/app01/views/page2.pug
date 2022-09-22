@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title JS 변수 받아서 표시하기
+  body
+    //- 태그명 뒤에 =을 붙이면, 뒤의 내용은 JS 값이다!
+    h1= myName + "이라고 합니다" 
+    h1= myPet + "는 고양이입니다!!"
+    
+    //- 일반 텍스트와 JS 값을 결합하기!
+    h1 제가 제일 좋아하는 음식은 #{myFood}입니다!
+
+    //- 코드 형태를 받아서 실제 코드로 녹이기!
+    h1!= myStar

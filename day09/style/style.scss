@@ -1,0 +1,15 @@
+$medium-size: "screen and (max-width: 600px)";
+$small-size: "screen and (max-width: 400px)";
+
+.nemo{
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+
+  @media #{$medium-size}{
+    background-color: teal;
+  }
+  @media #{$small-size}{
+    background-color: blue;
+  }
+}

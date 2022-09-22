@@ -1,0 +1,11 @@
+
+@mixin squre{
+  width: 200px;
+  height: 200px;
+}
+
+@mixin circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

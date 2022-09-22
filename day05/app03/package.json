@@ -1,0 +1,14 @@
+{
+  "name": "app03",
+  "version": "1.0.0",
+  "description": "View Engine Sample",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "SEONGMIN",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

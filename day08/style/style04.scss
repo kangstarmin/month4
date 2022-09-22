@@ -1,0 +1,29 @@
+
+@mixin box-style($bg-color: black, $font-color: white) {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-color;
+  color: $font-color;
+}
+
+// @content: 스타일 블록을 통째로 전달받는다!
+@mixin my-box($bg-color){
+  @content;
+  background-color: $bg-color;
+}
+
+.one{
+  @include box-style(red, purple);
+}
+.two{
+  @include box-style(yellow, green);
+}
+.three{
+  @include my-box(tomato){
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,17 @@
+.nemo {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+}
+@media screen and (max-width: 600px) {
+  .nemo {
+    background-color: teal;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nemo {
+    background-color: blue;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

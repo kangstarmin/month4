@@ -1,0 +1,28 @@
+
+// 단축속성을 중첩해서 표현하기
+p{
+  color: orangered;
+  font: {
+    style: italic;
+    weight: 900;
+    size: 64px;
+    family: monospace;
+  };
+}
+
+// 버튼에 의사클래스 추가하기
+button{
+  background-color: yellow;
+  &.first:hover{
+    background-color: teal;
+  }
+  &.first:active{
+    background-color: skyblue;
+  };
+  &.second:hover{
+    background-color: tomato;
+  }
+  &.second:active{
+    background-color: red;
+  }
+}
